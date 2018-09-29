@@ -1,0 +1,27 @@
+{
+  "name": "2018_dongjak",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -a localhost -p 8000",
+    "build-css": "node-sass scss/main.scss css/main.css",
+    "build-css-watch": "node-sass -w scss/main.scss css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PichuChen/2018_dongjak.git"
+  },
+  "author": "Pichu Chen",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/PichuChen/2018_dongjak/issues"
+  },
+  "homepage": "https://github.com/PichuChen/2018_dongjak#readme",
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "node-sass": "^4.9.3",
+    "scss": "^0.2.4"
+  }
+}
