@@ -1,7 +1,7 @@
 
 
 
-$base-txt-color: #bada55;
+$base-txt-color: #f8f8f8;
 $base-bg-color: #4a4a4a;
 
 body { 
@@ -23,7 +23,7 @@ body {
   line-height: normal;
   letter-spacing: normal;
   text-align: center;
-  color: #f8f8f8;
+  color: $base-txt-color;
 }
 
 .Topic {
@@ -37,7 +37,7 @@ body {
   line-height: normal;
   letter-spacing: normal;
   text-align: center;
-  color: #f8f8f8;
+  color: $base-txt-color;
 }
 
 .PersonTitle {
@@ -51,7 +51,7 @@ body {
   line-height: normal;
   letter-spacing: normal;
   text-align: center;
-  color: #f8f8f8;
+  color: $base-txt-color;
   margin-left: 25px;
   margin-right: 25px;
 }
@@ -67,7 +67,7 @@ body {
   line-height: normal;
   letter-spacing: normal;
   text-align: center;
-  color: #f8f8f8;
+  color: $base-txt-color;
   margin-top: 66px;
 }
 
@@ -80,6 +80,6 @@ body {
   font-stretch: normal;
   line-height: 1.5;
   letter-spacing: normal;
-  color: #f8f8f8;
+  color: $base-txt-color;
   margin: 25px;
 }
