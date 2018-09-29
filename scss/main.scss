@@ -87,10 +87,11 @@ body {
 }
 
 .img {
-  width: 320px;
+  width: 100%;
   height: 371px;
   object-fit: contain;
-  background-image: url("../img/imag-1233.jpg");
+  background-image: url("../img/imag-1233.jpg") ;
+  background-repeat: round;
 }
 
 .black-background {
