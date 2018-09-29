@@ -70,3 +70,8 @@ body {
   letter-spacing: normal;
   color: #f8f8f8;
   margin: 25px; }
+
+a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #bfeefc; }
